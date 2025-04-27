@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community # For Ollama, Chroma, SentenceTransformerEmbeddings wrappers etc.
+ollama # Python client for Ollama (good practice)
+sentence-transformers
+chromadb # Vector database
+pypdf # For loading PDF documents
+transformers[sentencepiece] # For translation pipeline + tokenizers
+numpy
+Pillow # Often needed by Streamlit or other image handling
+
+# Note: Pinning specific versions (e.g., streamlit==1.30.0) is recommended
+# for better reproducibility in the future. You can generate a pinned list
+# once your environment is stable using: pip freeze > requirements.txt
