@@ -3,7 +3,6 @@ vectorstores/
 
 app.py
 app1.py
-chatbot.py
 gpu_test.py
 test_llm_inference.py
 minimal_gpu_test.py
